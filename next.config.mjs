@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/hawaii_climate_atlases/rainfall",
+  output: "export",
+  basePath: "/climate_atlas_test",
 };
 
 export default nextConfig;
