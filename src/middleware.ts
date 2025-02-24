@@ -3,6 +3,7 @@ import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const { pathname, hostname } = request.nextUrl;
+  console.log(pathname, hostname);
   if (!(
     pathname.endsWith(".png") ||
     pathname.endsWith(".jpg") ||
